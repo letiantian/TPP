@@ -1,0 +1,5 @@
+#Deny from all -->这是默认配置
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond $1 !^(index\.php|_js|_imgs|_css|robots\.txt)    #在这里写要排除的资源等
+RewriteRule ^(.*)$ index.php/$1 [L]
