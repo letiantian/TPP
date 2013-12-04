@@ -3,9 +3,10 @@
 /**
  * this array is for mapping url to the  specified class
  * the first letter and last letter of key and value must be '/'
+ * for example: '/hello/' => '/welcome/hello/'
  */
 $url_maps = [
-    '/hello/' => '/welcome/hello/'
+
 
 ];
 
