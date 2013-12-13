@@ -6,7 +6,7 @@ git add .
 echo ""
 
 echo ">>git commit -m \"...\""
-git commit -m "..."
+git commit -m "rm push.md, it is a irrelevant file"
 echo ""
 
 echo ">>git merge master"
