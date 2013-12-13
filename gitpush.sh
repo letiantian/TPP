@@ -6,7 +6,7 @@ git add .
 echo ""
 
 echo ">>git commit -m \"...\""
-git commit -m "modify README.md"
+git commit -m "..."
 echo ""
 
 echo ">>git merge master"
